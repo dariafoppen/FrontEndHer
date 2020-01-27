@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <title>Lowlands</title>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blokkenschema.html">BLOKKENSCHEMA</a></li>
+                <li><a href="nieuws.html">NIEUWS</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="programma.html">PROGRAMMA</a></li>
+                <li><img src="./images/home.png" alt="home" height='50'></li>
+                <li><a href="tickets.html">TICKETS</a></li>
+                <li><a href="plattegrond.html">PLATTEGROND</a></li>
+                <li><a href="english.html">ENGLISH</a></li>
+                <li><a href="meer.html">MEER</a></li>
+            </ul>
+        </nav>
+        <video autoplay loop muted>
+            <source src="images/gif.mp4" type="video/mp4">
+        </video>
+        
+    </header>
+
+    <section class="flexProgramma">
+    <aside>
+        <h1>FILTEREN OP<br> PROGRAMMA</h1>
+        <form>
+            <fieldset>
+                <input id="alles" type="checkbox" name="alles" checked>
+                <label for="alles">ALLES</label>
+
+                <input id="muziek" type="checkbox" name="muziek" checked>
+                <label for="muziek">MUZIEK</label>
+
+                <input id="wetenschap" type="checkbox" name="wetenschap" checked>
+                <label for="wetenschap">WETENSCHAP</label>
+
+                <input id="comedy" type="checkbox" name="comedy" checked>
+                <label for="comedy">COMEDY</label>
+
+                <input id="theaterdans" type="checkbox" name="theaterdans" checked>
+                <label for="theaterdans">THEATER/DANS</label>
+
+                <input id="literatuur" type="checkbox" name="literatuur" checked>
+                <label for="literatuur">LITERATUUR</label>
+
+                <input id="filosofie" type="checkbox" name="filosofie" checked>
+                <label for="filosofie">FILOSOFIE</label>
+
+                <input id="kunst" type="checkbox" name="kunst" checked>
+                <label for="kunst">KUNST</label>
+
+                <input id="buitentheater" type="checkbox" name="buitentheater" checked>
+                <label for="buitentheater">BUITENTHEATER</label>
+
+                <input id="specials" type="checkbox" name="specials" checked>
+                <label for="specials">SPECIALS</label>
+
+            </fieldset>
+        </form>
+
+    </aside>
+
+    <section class="programma">
+        <article>
+            <!-- Klik op de pagina/site op het hartje bij een artikel, deze verandert nu van kleur! -->
+            <img id="icoontjes1" src="./images/icoontjes.png" alt="icoontjes">
+            <p>VAN KARATE NAAR DANCEPOP</p>
+            <h2>ANNE-MARIE</h2>
+            <img src="./images/annemarie.png" alt="annemarie">
+        </article>
+        <article>
+            <img id="icoontjes2" src="./images/icoontjes.png" alt="icoontjes">
+            <p>MET BASSEN BLAZENDE ASAP MOB-TELG</p>
+            <h2>A$AP ROCKY</h2>
+            <img src="./images/asap.png" alt="asap">
+        </article>
+        <article>
+            <img id="icoontjes3" src="./images/icoontjes.png" alt="icoontjes">
+            <p>INTENS MIJMERENDE POPTOVENARES</p>
+            <h2>BILLIE EILISH</h2>
+            <img src="./images/billie.png" alt="billie">
+        </article>
+        <article>
+            <img id="icoontjes4" src="./images/icoontjes.png" alt="icoontjes">
+            <p>IJZERSTERKE RNB-SONGS IN JAZZY JASJE</p>
+            <h2>JORJA SMITH</h2>
+            <img src="./images/jorja.png" alt="jorja">
+        </article>
+        <article>
+            <img id="icoontjes5" src="./images/icoontjes.png" alt="icoontjes">
+            <p>VUIGE HARDROCK VOOR ERVAREN HEADBANGERS</p>
+            <h2>ROYAL BLOOD</h2>
+            <img src="./images/royalblood.png" alt="royalblood">
+        </article>
+        <article>
+            <img id="icoontjes6" src="./images/icoontjes.png" alt="icoontjes">
+            <p>MASSAAL KIPPENVEL EN TROOSTENDE KNUFFELS</p>
+            <h2>THE NATIONAL</h2>
+            <img src="./images/nationals.png" alt="national">
+        </article>
+    </section>
+    </section>
+
+
+
+
+
+    <footer>
+        <section>
+            <h4>VOLG ONS</h4>
+            <img src="./images/social.png" alt="socials" height='30'>
+        </section>
+
+        <form>
+            <fieldset>
+                <legend>Leuke nieuwtjes en win acties? Schrijf je in!</legend>
+
+
+                <label for="Naam">Naam</label>
+                <input type="text" id="naam" placeholder="Daria Foppen">
+
+
+                <label for="E-mail">E-mail</label>
+                <input type="text" id="email" placeholder="dariafoppen@gmail.com">
+
+
+
+                <label for="datum">Geboortedatum</label>
+                <input type="date" id="datum" value="2019-12-12">
+
+
+                <button type="submit">Verstuur</button>
+
+
+            </fieldset>
+        </form>
+    </footer>
+
+    <script src='_js/script.js'></script>
+</body>
+
+
+</html>
